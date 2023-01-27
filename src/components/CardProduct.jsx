@@ -1,9 +1,21 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-function CardProduct({ name, image, address, distance, duration, category }) {
+function CardProduct({
+  name,
+  image,
+  address,
+  distance,
+  duration,
+  category,
+  to,
+}) {
   return (
-    <div className="flex gap-3 items-center hover:shadow-s2 transition-all duration-500 bg-white p-4 rounded-lg relative overflow-hidden cursor-pointer">
-      <div className="absolute rounded-bl-2xl flex items-center gap-1 px-3 py-2 text-xs top-0 right-0 bg-gray-300/50">
+    <Link
+      to={to}
+      className="flex gap-3 items-center hover:shadow-s2 transition-all duration-500 bg-white p-4 rounded-lg relative overflow-hidden cursor-pointer"
+    >
+      <div className="absolute rounded-bl-2xl flex items-center gap-1 px-3 py-1.5 text-xs top-0 right-0 bg-gray-300/50">
         <i className="ri-time-line"></i>
         <p>{duration}</p>
       </div>
@@ -22,7 +34,7 @@ function CardProduct({ name, image, address, distance, duration, category }) {
         </div>
         <p className="text-sm">{category}</p>
       </div>
-    </div>
+    </Link>
   );
 }
 
