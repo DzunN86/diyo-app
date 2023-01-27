@@ -3,11 +3,12 @@ export const dataRestaurants = [
     id: 1,
     name: "Shoup Kitchen",
     image:
-      "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/7449117/pexels-photo-7449117.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     address: "JL. Kebon Jeruk No. 1",
     duration: "5 menit",
     distance: "1.5 km",
     category: "Chinese Food",
+    slug: "shoup-kitchen",
     catalog: [
       {
         id: 1,
@@ -80,6 +81,7 @@ export const dataRestaurants = [
     duration: "10 menit",
     distance: "2.5 km",
     category: "Fast Food",
+    slug: "burger-king",
     catalog: [
       {
         id: 1,
@@ -132,6 +134,7 @@ export const dataRestaurants = [
     duration: "15 menit",
     distance: "3.0 km",
     category: "Fast Food",
+    slug: "kfc-faxafeni",
     catalog: [
       {
         id: 1,
@@ -184,6 +187,7 @@ export const dataRestaurants = [
     duration: "15 menit",
     distance: "3.0 km",
     category: "Salad",
+    slug: "salad-shop",
     catalog: [
       {
         id: 1,
@@ -236,6 +240,7 @@ export const dataRestaurants = [
     duration: "15 menit",
     distance: "3.0 km",
     category: "Fast Food",
+    slug: "food-ten",
     catalog: [
       {
         id: 1,
@@ -288,6 +293,7 @@ export const dataRestaurants = [
     duration: "15 menit",
     distance: "3.0 km",
     category: "Indonesian Food",
+    slug: "cobek-ayam-penyet",
     catalog: [
       {
         id: 1,
@@ -340,6 +346,7 @@ export const dataRestaurants = [
     duration: "5 menit",
     distance: "1.5 km",
     category: "Chinese Food",
+    slug: "shoup-kitchen",
     catalog: [
       {
         id: 1,
@@ -412,6 +419,7 @@ export const dataRestaurants = [
     duration: "10 menit",
     distance: "2.5 km",
     category: "Fast Food",
+    slug: "pizza-hut",
     catalog: [
       {
         id: 1,
