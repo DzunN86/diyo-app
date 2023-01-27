@@ -3,7 +3,7 @@ import { BottomNav, CardProduct } from "../components";
 import Header from "../components/Header";
 import { dataRestaurants } from "../constans";
 
-function ProductsPage() {
+function RestaurantsPage() {
   return (
     <>
       <Header />
@@ -14,6 +14,7 @@ function ProductsPage() {
             {dataRestaurants.map((restaurant) => (
               <CardProduct
                 key={restaurant.id}
+                to={`/${restaurant.slug}`}
                 name={restaurant.name}
                 image={restaurant.image}
                 address={restaurant.address}
@@ -30,4 +31,4 @@ function ProductsPage() {
   );
 }
 
-export default ProductsPage;
+export default RestaurantsPage;
