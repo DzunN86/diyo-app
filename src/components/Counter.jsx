@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 
 function Counter({ quantity, addQuantity, dicreaseQuantity }) {
   return (
@@ -23,4 +23,4 @@ function Counter({ quantity, addQuantity, dicreaseQuantity }) {
   );
 }
 
-export default Counter;
+export default memo(Counter);
