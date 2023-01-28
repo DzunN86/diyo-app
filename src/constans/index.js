@@ -28,6 +28,20 @@ export const dataRestaurants = [
             image:
               "https://images.unsplash.com/photo-1572656631137-7935297eff55?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80",
           },
+          {
+            id: 3,
+            name: "BBQ Beef Rasher",
+            price: 35909,
+            image:
+              "https://media-order.bkdelivery.co.id/thumb/product_photo/2023/1/22/ermrjb4zvwdzd7ux8yhv6v_product_list.jpg",
+          },
+          {
+            id: 4,
+            name: "BBQ BEEF RASHER",
+            price: 50909,
+            image:
+              "https://media-order.bkdelivery.co.id/thumb/product_photo/2022/12/15/55wr3epsmwuxwxsxhrvnr2_product_list.jpg",
+          },
         ],
       },
       {
