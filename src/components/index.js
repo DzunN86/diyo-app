@@ -6,6 +6,8 @@ import Counter from "./Counter";
 import Toggle from "./Toggle";
 import Input from "./Input";
 import BottomAction from "./BottomAction";
+import NavBack from "./NavBack";
+import CheckoutItem from "./CheckoutItem";
 export {
   CardProduct,
   Header,
@@ -15,4 +17,6 @@ export {
   Toggle,
   Input,
   BottomAction,
+  NavBack,
+  CheckoutItem,
 };
