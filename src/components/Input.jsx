@@ -23,7 +23,7 @@ function Input({
       <input
         type={type}
         id={id}
-        className="bg-gray-50 ring-1 ring-gray-300 text-gray-900 text-sm focus:ring-1 focus:ring-primary focus:outline-none rounded-lg block w-full p-2.5 disabled:bg-gray-200 disabled:cursor-not-allowed"
+        className="bg-gray-50 ring-1 ring-gray-300 text-gray-900 text-sm focus:ring-1 focus:ring-blue-500 focus:outline-none rounded-lg block w-full p-2.5 disabled:bg-gray-200 disabled:cursor-not-allowed"
         placeholder={placeholder}
         value={value}
         onChange={onChange}
