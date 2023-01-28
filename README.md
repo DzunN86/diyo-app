@@ -1,5 +1,11 @@
 # DIYO App
-Do It Yourself Ordering
+
+<img src="./Preview.jpg" alt="Preview" width="100%">
+<br>
+<br>
+Do It Yourself Ordering (DIYO) is a web application that allows users to order food by themselves without the need to interact with a waiter. The application is built using React.js.
+<br>
+<br>
 
 ## Project Setup
 
@@ -19,8 +25,8 @@ npm run dev
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Preview Production Build
 
 ```sh
-npm run lint
+npm run preview
 ```
