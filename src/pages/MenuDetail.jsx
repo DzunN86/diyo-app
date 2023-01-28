@@ -6,6 +6,13 @@ function MenuDetailPage() {
   const [quantity, setQuantity] = React.useState(1);
   return (
     <>
+      <div className="fixed top-0 z-30 w-full max-w-screen-xs bg-transparent">
+        <div className="flex items-center text-white gap-4 py-3 px-4 text-xl font-bold">
+          <button className="flex bg-primary px-1 rounded-full">
+            <i className="ri-arrow-left-line"></i>
+          </button>
+        </div>
+      </div>
       <div className="h-56 bg-black relative">
         <img
           src="https://media-order.bkdelivery.co.id/thumb/product_photo/2022/12/19/dzc24j9bhxxzxjhmbvjkvj_product_list.jpg"
