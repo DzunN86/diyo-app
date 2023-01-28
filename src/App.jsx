@@ -16,7 +16,7 @@ function App() {
         <Route index element={<RestaurantsPage />} />
         <Route path="/:slug" element={<MenuPage />} />
         <Route path="/:slug/menu/:menu_id" element={<MenuDetailPage />} />
-        <Route path="scan" element={<ScanPage />} />
+        <Route path="/:slug/scan" element={<ScanPage />} />
         <Route path="checkout" element={<CheckoutPage />} />
       </Route>
     </Routes>
