@@ -14,7 +14,7 @@ function RestaurantsPage() {
             {dataRestaurants.map((restaurant) => (
               <CardProduct
                 key={restaurant.id}
-                to={`/${restaurant.slug}`}
+                to={`/${restaurant.slug}/scan`}
                 name={restaurant.name}
                 image={restaurant.image}
                 address={restaurant.address}
