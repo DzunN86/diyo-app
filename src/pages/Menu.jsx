@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
-import { CardProduct } from "../components";
+import { BottomAction, CardProduct } from "../components";
 import { dataRestaurants } from "../constans";
 import { idrFormatter } from "../utils";
 
@@ -46,13 +46,13 @@ function MenuPage() {
           </div>
         </div>
       </div>
-      <div className="bg-white px-4 mt-5 pt-6">
-        <div className="flex gap-2">
+      <div className="bg-white px-4 mt-3 pt-6">
+        <div className="flex gap-2 overflow-auto">
           {restaurant.catalog.map((item, index) => (
             <button
               key={item.id}
               onClick={() => setCatalog(index)}
-              className={`py-1 px-5 rounded-md overflow-auto ${
+              className={`py-1 px-5 rounded-md ${
                 catalog === index ? "bg-primary text-white" : " text-gray-500"
               }`}
             >
@@ -63,11 +63,11 @@ function MenuPage() {
         <div className="flex flex-col mt-2 divide-y-2 w-full">
           {restaurant.catalog[catalog].menu.map((menu) => (
             <div key={menu.id} className="flex py-6 gap-2 items-start w-full">
-              <div className="w-1/4">
+              <div className="w-1/3 h-20">
                 <img
                   src={menu.image}
                   alt="Restoran Image"
-                  className="w-20 h-20 object-cover rounded-lg"
+                  className="w-full h-full object-cover rounded-lg"
                 />
               </div>
               <div className="flex justify-between w-full">
@@ -80,6 +80,7 @@ function MenuPage() {
           ))}
         </div>
       </div>
+      <BottomAction quantity={0} link="View Basket" totalPrice="Rp 5000" />
     </>
   );
 }
