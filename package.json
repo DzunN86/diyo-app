@@ -15,8 +15,6 @@
     "qrscan": "^1.0.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-qr-reader": "^3.0.0-beta-1",
-    "react-qr-scanner": "^1.0.0-alpha.11",
     "react-router-dom": "^6.7.0",
     "remixicon": "^2.5.0",
     "sort-by": "^1.2.0"
