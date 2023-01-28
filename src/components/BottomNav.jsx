@@ -21,7 +21,7 @@ function BottomNav() {
           <p>Pesanan</p>
         </div>
         <NavLink className="flex flex-col items-center w-1/2" to="/scan">
-          <div className="bg-gradient-to-tl from-primary to-secondary rounded-full w-16 h-16 flex items-center justify-center text-white -translate-y-10 -mb-9">
+          <div className="bg-gradient-to-tl from-primary to-secondary rounded-full w-16 h-16 flex items-center justify-center text-white -translate-y-10 -mb-9 shadow-s2">
             <i className="ri-qr-scan-2-line text-3xl"></i>
           </div>
           <p>Scan</p>
