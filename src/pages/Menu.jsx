@@ -45,9 +45,9 @@ function MenuPage() {
         </button>
         <div className=" flex w-full flex-col gap-4">
           <div className="flex flex-col gap-1">
-            <h1 className="text-3xl font-bold">Dominico Coffe</h1>
-            <p className="text-sm">Fast Food</p>
-            <p>JL. Kebon Jeruk No. 1</p>
+            <h1 className="text-3xl font-bold">{restaurant.name}</h1>
+            <p className="text-sm">{restaurant.category}</p>
+            <p>{restaurant.address}</p>
           </div>
           <hr />
           <div className="flex justify-between items-center text-sm">
@@ -58,7 +58,7 @@ function MenuPage() {
               until 19:00 today
             </p>
             <p className="flex bg-primary px-2 py-1 rounded-md text-white text-xs gap-1">
-              <i className="ri-map-pin-time-fill"></i> 1.5 km
+              <i className="ri-map-pin-time-fill"></i> {restaurant.distance}
             </p>
           </div>
         </div>
