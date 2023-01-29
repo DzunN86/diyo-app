@@ -7,6 +7,18 @@ Do It Yourself Ordering (DIYO) is a web application that allows users to order f
 <br>
 <br>
 
+## Demo
+For the [DEMO](https://diyo-app.vercel.app/), and use this QRCode to be scanned.
+<br>
+<br>
+<img src="https://user-images.githubusercontent.com/26589341/215298773-b86861c9-48bd-4511-8e6e-72d4c7aa0968.png" alt="Preview" width="30%">
+<br>
+<br>
+
+The QRCode output is `shoup-kitchen:4`
+<br>
+`shoup-kitchen` for the slug or identity of restaurant and `4` for table number
+
 ## Project Setup
 
 ```sh
